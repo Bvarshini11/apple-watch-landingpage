@@ -67,17 +67,37 @@ body{
     font-size:12px;
     font-weight:600;
 }
+
 .buy-btn{
     background:#0071e3;
     color:#fff;
-    border:none;
+    border:1px solid #0071e3;
     border-radius:20px;
-    padding:6px 18px;
+    padding:6px 22px;
     font-size:13px;
+    cursor:pointer;
+    transition:all .3s ease;
 }
+.buy-btn:hover{
+    background:#005bb5;
+}
+.buy-btn:active{
+    background:#fff;
+    color:#0071e3;
+}
+
 .section-title{
     font-size:22px;
     margin-top:60px;
+}
+
+.product-name{
+    font-weight:500;
+    margin-top:10px;
+}
+.product-price{
+    color:#6e6e73;
+    font-size:14px;
 }
 </style>
 </head>
@@ -155,7 +175,7 @@ Get up to 6 months of No Cost EMI plus up to ₹6000 instant cashback on selecte
 </div>
 </div>
 
-<h5 class="section-title"><span class="text-primary">Apple Watch picks.</span> Strong choices.</h5>
+<h5 class="section-title"><span class="text-primary">Apple Watch Bands</span></h5>
 
 <div class="row g-4 mt-3">
 <div class="col-md-3">
@@ -163,6 +183,7 @@ Get up to 6 months of No Cost EMI plus up to ₹6000 instant cashback on selecte
 <img src="images/band1.png">
 <p class="product-name">46mm Anchor Blue Sport Loop</p>
 <p class="product-price">₹4,500</p>
+<button class="buy-btn">Buy</button>
 </div>
 </div>
 
@@ -171,6 +192,7 @@ Get up to 6 months of No Cost EMI plus up to ₹6000 instant cashback on selecte
 <img src="images/band2.png">
 <p class="product-name">49mm Alpine Loop</p>
 <p class="product-price">₹9,900</p>
+<button class="buy-btn">Buy</button>
 </div>
 </div>
 
@@ -179,6 +201,7 @@ Get up to 6 months of No Cost EMI plus up to ₹6000 instant cashback on selecte
 <img src="images/airpods.png">
 <p class="product-name">AirPods Pro (3rd Gen)</p>
 <p class="product-price">₹24,900</p>
+<button class="buy-btn">Buy</button>
 </div>
 </div>
 </div>
